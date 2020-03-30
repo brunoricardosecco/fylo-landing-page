@@ -118,7 +118,7 @@ img {
   cursor: pointer;
 }
 
-.bottomContainer {
+.middleContainer {
   background-color: hsl(218, 28%, 13%);
   padding: 0 10%;
 }
@@ -133,15 +133,14 @@ img {
 .columnContainer {
   display: flex;
   flex-direction: column;
-  background-color: green;
   justify-content: center;
   align-items: center;
 }
 
 .itemContent {
-  background-color: yellow;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-grow: 1;
   flex-direction: column;
   margin: 20px;
@@ -152,4 +151,115 @@ img {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   text-align: center;
+}
+
+.itemTitle {
+  margin-top: 10px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bottomContainer {
+  background-color: hsl(218, 28%, 13%);
+  padding: 10%;
+}
+
+.productiveContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.productiveTextContainer {
+  margin-left: 20px;
+  width: 40%;
+}
+
+.productiveTitle {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.productiveText {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+}
+
+.productiveButton {
+  margin-top: 10px;
+  font-family: "Raleway", sans-serif;
+  color: hsl(176, 68%, 64%);
+  font-weight: bold;
+  border: 0;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  padding: 5px 0;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.productiveButton:hover {
+  cursor: pointer;
+}
+
+.customersCardsContainer {
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.customerCard {
+  position: relative;
+  width: 30%;
+  z-index: 999;
+  padding: 20px;
+}
+
+.quotes {
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -35px;
+  z-index: -1;
+}
+
+.customerPhoto {
+  border-radius: 50%;
+  border-image-width: 10px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.cardContent {
+  background-color: hsl(217, 28%, 15%);
+  padding: 20px;
+  padding-top: 35px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(153, 157, 204, 0.1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(153, 157, 204, 0.1);
+  box-shadow: 10px 10px 5px 0px rgba(153, 157, 204, 0.1);
+}
+
+.customerInfo {
+  display: flex;
+  align-items: center;
+}
+
+.customerText {
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.customerName {
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.customerJob {
+  color: #fff;
+  font-size: 12px;
 }
