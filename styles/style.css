@@ -237,9 +237,9 @@ img {
   background-color: hsl(217, 28%, 15%);
   padding: 20px;
   padding-top: 35px;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(153, 157, 204, 0.1);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(153, 157, 204, 0.1);
-  box-shadow: 10px 10px 5px 0px rgba(153, 157, 204, 0.1);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(153, 157, 204, 0.1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(153, 157, 204, 0.1);
+  box-shadow: 5px 5px 5px 0px rgba(153, 157, 204, 0.1);
 }
 
 .customerInfo {
@@ -262,4 +262,51 @@ img {
 .customerJob {
   color: #fff;
   font-size: 12px;
+}
+
+.footer {
+  background-color: hsl(216, 53%, 9%);
+  padding: 0 10%;
+  padding-top: 10%;
+}
+
+.socialIcons {
+  width: 22px;
+}
+
+.footerContent {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+.locationContainer {
+  display: flex;
+  align-items: flex-start;
+  width: 40%;
+}
+
+.numberContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footerListContainer {
+  display: flex;
+}
+
+.footerText {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 10px;
+}
+
+.inputContainer {
+  background-color: hsl(217, 28%, 15%);
+  padding: 20px;
+  padding-top: 35px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(153, 157, 204, 0.1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(153, 157, 204, 0.1);
+  box-shadow: 5px 5px 5px 0px rgba(153, 157, 204, 0.1);
 }
