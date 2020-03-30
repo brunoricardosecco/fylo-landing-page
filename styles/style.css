@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+button:focus {
+  outline: 0;
+}
+
 body,
 h1,
 h2,
@@ -70,7 +74,7 @@ img {
   padding: 0 10%;
 }
 
-.contentContainer {
+.contentTopContainer {
   display: flex;
   flex: 1;
   flex-wrap: nowrap;
@@ -86,7 +90,7 @@ img {
 
 .topTitle {
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-top: 50px;
   text-align: center;
@@ -94,7 +98,58 @@ img {
 
 .topText {
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-top: 50px;
+  text-align: center;
+}
+
+.topButton {
+  margin-top: 50px;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  padding: 15px 50px;
+  border-radius: 25px;
+  background-image: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+.topButton:hover {
+  cursor: pointer;
+}
+
+.bottomContainer {
+  background-color: hsl(218, 28%, 13%);
+  padding: 0 10%;
+}
+
+.itemsContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  min-width: 100%;
+}
+
+.columnContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemContent {
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 20px;
+  width: 50%;
+}
+
+.itemText {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
 }
